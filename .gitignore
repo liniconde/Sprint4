@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+
+# Output directories
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sln
+*.code-workspace
+
+# MacOS files
+.DS_Store
+*.DS_Store
+
+# Other
+coverage/
+tmp/
+temp/

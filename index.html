@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chistes</title>
+    <link rel="stylesheet" href="./index.css">
+
+
+</head>
+
+<body>
+    <div class="container__clim">
+        <img id="icono" width="100px" height="100px">
+        <div class="container__descripcion">
+            <span id="main"></span>
+            <span id="temp"></span>
+            <span id="description"></span>
+        </div>
+    </div>
+
+    <div class="container">
+        <img class="fondo" id="fondo" src="imagenes/C1.png" alt="" width="50%">
+        <img class="fondo1" id="fondo1" src="imagenes/C1.png" alt="" width="15%">
+        <img class="fondo2" id="fondo2" src="imagenes/C1.png" alt="" width="15%">
+
+        <h1>El minuto de la diversión 🤪!</h1>
+        <p class="chiste" id="chiste">Chiste content</p>
+        <div class="iconos">
+            <i onclick="asignarScore(1)">
+                <img src="./imagenes/malo.png" width="25" alt="">
+            </i>
+            <i onclick="asignarScore(2)">
+                <img src="./imagenes/regular.png" width="25" alt="">
+            </i>
+            <i onclick="asignarScore(3)">
+                <img src="./imagenes/bueno.png" width="25" walt="">
+            </i>
+        </div>
+        <button onclick="botonsiguiente()" class="boton"> Siguiente</button>
+    </div>
+
+
+    <script src="dist/index.js"></script>
+
+</body>
+
+</html>
